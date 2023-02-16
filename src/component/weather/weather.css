@@ -1,0 +1,85 @@
+.climate {
+    width: auto;
+    border-radius: 10px;
+    color: #030303;
+    background-color: #8edbdb;
+    margin: 20px 0px;
+    padding: 5px 20px 20px;
+    font-size: larger;
+    font-weight: bolder;
+    
+}
+
+.country{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.down{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nation-city{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.city {
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1;
+    margin: 0;
+}
+
+.climate-description{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1;
+    margin: 0;
+}
+
+.climate-icon {
+    width: 150px;
+}
+
+.temp {
+    font-size: 55px;
+    font-weight: 620;
+    width: auto;
+    margin: 11px 0;
+    letter-spacing: -3px;
+}
+
+.detail {
+    width: 100%;
+    padding-left: 18px;
+  
+}
+
+.row {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.label {
+    font-weight: 600;
+    font-size: 18px;
+    margin: 3px;
+}
+
+.value {
+    font-weight: 600;
+    font-size: 18px;
+    color: crimson;
+    margin: 3px;
+}

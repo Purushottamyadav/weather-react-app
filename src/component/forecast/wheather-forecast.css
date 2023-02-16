@@ -1,0 +1,52 @@
+.topic{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+.icon-small{
+    width: 60px;
+}
+
+.day{
+    color: black;
+    margin-left: 12px;
+    font-weight: 700;
+}
+
+.detail{
+    flex: 1 ;
+    margin-right: 15px;
+    text-align: right;
+}
+
+.minimum-maximum{
+    color:black;
+}
+
+.details-items{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+}
+.forecast-data{
+    background-color: #ffffff;
+    border-radius: 8px;
+    height: 38px;
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 17px;
+  
+}
+.details-all{
+    grid-column-gap: 15px;
+    column-gap: 16px;
+    display: grid;
+    flex: 1 ;
+    padding: 7px 22px;
+}
